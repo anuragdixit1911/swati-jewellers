@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SWATI JEWELLERS | Gold &amp; Silver Jewellery, Tirvediganj, Barabanki</title>
+  <meta name="description"
+    content="SWATI JEWELLERS in Tirvediganj, Barabanki, Uttar Pradesh – Tradition, Trust and Elegance. Explore gold and silver jewellery and enquire on WhatsApp.">
+  <meta name="keywords"
+    content="Swati Jewellers, gold jewellery Barabanki, silver jewellery Barabanki, jewellery shop Tirvediganj, Haidergarh jewellers, bridal gold jewellery, silver anklets, traditional Indian jewellery">
+  <meta name="author" content="SWATI JEWELLERS">
+  <meta name="theme-color" content="#111111">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SWATI JEWELLERS">
+  <meta property="og:title" content="SWATI JEWELLERS – Tradition • Trust • Elegance">
+  <meta property="og:description"
+    content="Gold and silver jewellery in Tirvediganj, Barabanki. A Touch of Tradition, A Symbol of Elegance.">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Cpath d='M32 12l16 16-16 24L16 28z' fill='%23D4AF37'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* =====================================================================
+   SWATI JEWELLERS – Stylesheet
+   1. Tokens  2. Base  3. Header  4. Buttons  5. Hero  6. Sections
+   7. Cards  8. Collection  9. Contact  10. Footer  11. Utilities
+   ===================================================================== */
+
+    /* 1. DESIGN TOKENS ---------------------------------------------------- */
+    :root {
+      --black: #111111;
+      --gold: #D4AF37;
+      --gold-deep: #9C7A12;
+      --cream: #FAF7F0;
+      --text: #222222;
+      --champagne: #E8D5A3;
+      --muted: #6b6558;
+      --line: rgba(212, 175, 55, .35);
+      --radius: 6px;
+      --shadow: 0 18px 40px -22px rgba(17, 17, 17, .45);
+      --serif: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif;
+      --sans: 'Jost', 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
+      --header-h: 76px;
+    }
+
+    /* 2. BASE ------------------------------------------------------------- */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--cream);
+      overflow-x: hidden
+    }
+
+    img,
+    svg {
+      max-width: 100%;
+      display: block
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: var(--serif);
+      line-height: 1.15;
+      margin: 0 0 .5em;
+      font-weight: 600;
+      color: var(--black)
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 7vw, 4.6rem);
+      font-weight: 600
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4.6vw, 3.1rem)
+    }
+
+    h3 {
+      font-size: 1.5rem
+    }
+
+    p {
+      margin: 0 0 1em
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin-inline: auto
+    }
+
+    .section {
+      padding: clamp(3.5rem, 8vw, 6.5rem) 0
+    }
+
+    .section.dark {
+      background: var(--black);
+      color: #e9e3d2
+    }
+
+    .section.dark h2,
+    .section.dark h3 {
+      color: #fff
+    }
+
+    .section.champagne {
+      background: linear-gradient(180deg, #f3ead0, #faf7f0)
+    }
+
+    .lead {
+      font-size: 1.12rem;
+      color: var(--muted);
+      max-width: 62ch
+    }
+
+    .dark .lead {
+      color: #c9c2ad
+    }
+
+    .section-head {
+      max-width: 720px;
+      margin: 0 auto 3rem;
+      text-align: center
+    }
+
+    .section-head .lead {
+      margin-inline: auto
+    }
+
+    .ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .8rem;
+      margin: .9rem 0 1.2rem;
+      color: var(--gold)
+    }
+
+    .ornament::before,
+    .ornament::after {
+      content: "";
+      height: 1px;
+      width: 64px;
+      background: linear-gradient(90deg, transparent, var(--gold))
+    }
+
+    .ornament::after {
+      background: linear-gradient(270deg, transparent, var(--gold))
+    }
+
+    .skip {
+      position: absolute;
+      left: -999px;
+      top: 0;
+      background: var(--gold);
+      color: #000;
+      padding: .6rem 1rem;
+      z-index: 300
+    }
+
+    .skip:focus {
+      left: 0
+    }
+
+    /* 3. HEADER / NAV ----------------------------------------------------- */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17, 17, 17, .94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+      transition: box-shadow .3s
+    }
+
+    .site-header.scrolled {
+      box-shadow: 0 10px 30px -12px rgba(0, 0, 0, .6)
+    }
+
+    .nav {
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      color: #fff
+    }
+
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      flex: none
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1
+    }
+
+    .logo-text b {
+      font-family: var(--serif);
+      font-size: 1.45rem;
+      letter-spacing: .16em;
+      font-weight: 700;
+      color: var(--gold)
+    }
+
+    .logo-text small {
+      font-size: .66rem;
+      letter-spacing: .2em;
+      color: var(--champagne);
+      margin-top: 5px
+    }
+
+    .nav-links {
+      display: flex;
+      gap: .4rem;
+      list-style: none;
+      margin: 0;
+      padding: 0
+    }
+
+    .nav-links a {
+      display: block;
+      padding: .55rem 1rem;
+      color: #efe8d3;
+      font-size: .95rem;
+      letter-spacing: .04em;
+      position: relative;
+      transition: color .25s
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 1rem;
+      right: 1rem;
+      bottom: .2rem;
+      height: 2px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .3s
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--gold)
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      transform: scaleX(1)
+    }
+
+    .nav-cta {
+      display: none
+    }
+
+    .menu-btn {
+      display: none;
+      background: none;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      width: 46px;
+      height: 46px;
+      cursor: pointer;
+      padding: 0;
+      position: relative
+    }
+
+    .menu-btn span,
+    .menu-btn span::before,
+    .menu-btn span::after {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      height: 2px;
+      background: var(--gold);
+      content: "";
+      transition: transform .3s, opacity .3s
+    }
+
+    .menu-btn span {
+      top: 22px
+    }
+
+    .menu-btn span::before {
+      left: 0;
+      right: 0;
+      top: -7px
+    }
+
+    .menu-btn span::after {
+      left: 0;
+      right: 0;
+      top: 7px
+    }
+
+    .menu-btn[aria-expanded="true"] span {
+      background: transparent
+    }
+
+    .menu-btn[aria-expanded="true"] span::before {
+      transform: translateY(7px) rotate(45deg)
+    }
+
+    .menu-btn[aria-expanded="true"] span::after {
+      transform: translateY(-7px) rotate(-45deg)
+    }
+
+    @media (max-width:860px) {
+      .menu-btn {
+        display: block
+      }
+
+      .nav-links {
+        position: absolute;
+        top: var(--header-h);
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--black);
+        border-bottom: 1px solid var(--line);
+        padding: .6rem 4% 1.2rem;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        transition: max-height .4s ease, opacity .3s, visibility .3s
+      }
+
+      .nav-links.open {
+        max-height: 380px;
+        visibility: visible;
+        opacity: 1
+      }
+
+      .nav-links a {
+        padding: .95rem .4rem;
+        border-bottom: 1px solid rgba(212, 175, 55, .15)
+      }
+
+      .nav-links a::after {
+        display: none
+      }
+    }
+
+    /* 4. BUTTONS ---------------------------------------------------------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .6rem;
+      padding: .9rem 1.8rem;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      font: 500 .95rem var(--sans);
+      letter-spacing: .08em;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: transform .3s, box-shadow .3s, background .3s, color .3s;
+      text-align: center
+    }
+
+    .btn::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, .55) 50%, transparent 70%);
+      transform: translateX(-120%);
+      transition: transform .7s
+    }
+
+    .btn:hover::before {
+      transform: translateX(120%)
+    }
+
+    .btn:hover {
+      transform: translateY(-3px)
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #f0d77a, var(--gold) 45%, #b38f1c);
+      color: #1a1405;
+      box-shadow: 0 12px 26px -12px rgba(212, 175, 55, .8)
+    }
+
+    .btn-gold:hover {
+      box-shadow: 0 18px 32px -12px rgba(212, 175, 55, .95)
+    }
+
+    .btn-outline {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: transparent
+    }
+
+    .btn-outline:hover {
+      background: var(--gold);
+      color: #111
+    }
+
+    .btn-dark {
+      background: var(--black);
+      color: var(--champagne);
+      border-color: var(--black)
+    }
+
+    .btn-dark:hover {
+      background: #000;
+      color: var(--gold)
+    }
+
+    .btn-wa {
+      background: #1f9d55;
+      color: #fff;
+      box-shadow: 0 12px 24px -14px rgba(31, 157, 85, .9)
+    }
+
+    .btn-wa:hover {
+      background: #178a48
+    }
+
+    .btn-sm {
+      padding: .65rem 1.1rem;
+      font-size: .85rem;
+      width: 100%
+    }
+
+    .btn svg {
+      width: 20px;
+      height: 20px;
+      flex: none
+    }
+
+    /* 5. HERO ------------------------------------------------------------- */
+    /* Optional: put a photo at images/hero-jewellery.jpg – it shows automatically.
+   If the file is missing the golden background below is used instead. */
+    .hero {
+      position: relative;
+      min-height: calc(100vh - var(--header-h));
+      min-height: calc(100svh - var(--header-h));
+      display: flex;
+      align-items: center;
+      color: #fff;
+      overflow: hidden;
+      background:
+        linear-gradient(100deg, rgba(17, 17, 17, .88) 25%, rgba(17, 17, 17, .35)),
+        url('images/hero-jewellery.jpg') center/cover no-repeat,
+        radial-gradient(60% 70% at 78% 45%, #5a4511 0%, transparent 70%),
+        radial-gradient(40% 50% at 15% 100%, #3a2d0a 0%, transparent 70%),
+        #111
+    }
+
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      opacity: .09;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M30 4l8 14-8 14-8-14z M30 28l8 14-8 14-8-14z' fill='none' stroke='%23D4AF37' stroke-width='1'/%3E%3C/svg%3E")
+    }
+
+    .hero-inner {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 2rem;
+      align-items: center;
+      padding: 3rem 0
+    }
+
+    .hero h1 {
+      color: #fff;
+      margin-bottom: .35em
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+      font-weight: 500
+    }
+
+    .hero .sub {
+      font-size: 1.2rem;
+      color: var(--champagne);
+      max-width: 36ch;
+      margin-bottom: 2rem
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem
+    }
+
+    .hero-tag {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.25rem;
+      color: var(--gold);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .8rem
+    }
+
+    .hero-tag::before {
+      content: "";
+      width: 46px;
+      height: 1px;
+      background: var(--gold)
+    }
+
+    .hero-art {
+      position: relative;
+      aspect-ratio: 1;
+      max-width: 460px;
+      margin-inline: auto;
+      width: 100%
+    }
+
+    .hero-art svg {
+      width: 100%;
+      height: 100%
+    }
+
+    .spin-slow {
+      transform-origin: 200px 200px;
+      animation: spin 60s linear infinite
+    }
+
+    .spin-rev {
+      transform-origin: 200px 200px;
+      animation: spin 90s linear infinite reverse
+    }
+
+    .glow {
+      animation: pulse 4s ease-in-out infinite
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 1.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: var(--champagne);
+      font-size: .8rem;
+      letter-spacing: .2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .4rem;
+      opacity: .8
+    }
+
+    .hero-scroll i {
+      width: 1px;
+      height: 34px;
+      background: linear-gradient(var(--gold), transparent);
+      animation: drop 1.8s infinite
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: .55
+      }
+
+      50% {
+        opacity: 1
+      }
+    }
+
+    @keyframes drop {
+      0% {
+        transform: scaleY(0);
+        transform-origin: top
+      }
+
+      50% {
+        transform: scaleY(1);
+        transform-origin: top
+      }
+
+      51% {
+        transform-origin: bottom
+      }
+
+      100% {
+        transform: scaleY(0);
+        transform-origin: bottom
+      }
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(26px)
+      }
+
+      to {
+        opacity: 1;
+        transform: none
+      }
+    }
+
+    .hero-copy>* {
+      animation: rise .9s both
+    }
+
+    .hero-copy>*:nth-child(2) {
+      animation-delay: .12s
+    }
+
+    .hero-copy>*:nth-child(3) {
+      animation-delay: .24s
+    }
+
+    .hero-copy>*:nth-child(4) {
+      animation-delay: .36s
+    }
+
+    @media (max-width:900px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 2rem
+      }
+
+      .hero-copy {
+        order: 2
+      }
+
+      .hero-art {
+        order: 1;
+        max-width: 260px
+      }
+
+      .hero .sub {
+        margin-inline: auto
+      }
+
+      .hero-actions {
+        justify-content: center
+      }
+
+      .hero-tag {
+        justify-content: center
+      }
+
+      .hero-tag::before {
+        display: none
+      }
+
+      .hero-scroll {
+        display: none
+      }
+    }
+
+    /* Inner-page banner */
+    .page-banner {
+      background: radial-gradient(60% 120% at 80% 0, #4a3a0d, transparent 70%), var(--black);
+      color: #fff;
+      text-align: center;
+      padding: clamp(3rem, 8vw, 5.5rem) 0;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .page-banner h1 {
+      color: #fff;
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      margin-bottom: .3em
+    }
+
+    .page-banner p {
+      color: var(--champagne);
+      max-width: 56ch;
+      margin: 0 auto
+    }
+
+    .crumbs {
+      font-size: .9rem;
+      color: var(--gold);
+      margin-bottom: .8rem
+    }
+
+    /* 6. SECTIONS --------------------------------------------------------- */
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 5vw, 4.5rem);
+      align-items: center
+    }
+
+    .split.flip .split-media {
+      order: 2
+    }
+
+    @media (max-width:860px) {
+
+      .split,
+      .split.flip {
+        grid-template-columns: 1fr
+      }
+
+      .split.flip .split-media {
+        order: 0
+      }
+    }
+
+    .frame {
+      position: relative;
+      border-radius: var(--radius);
+      aspect-ratio: 4/5;
+      max-height: 560px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: var(--shadow)
+    }
+
+    .frame::after {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(232, 213, 163, .6);
+      border-radius: 3px;
+      pointer-events: none
+    }
+
+    .frame svg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover
+    }
+
+    .frame.wide {
+      aspect-ratio: 5/4
+    }
+
+    .checklist {
+      list-style: none;
+      margin: 1.2rem 0 1.8rem;
+      padding: 0;
+      display: grid;
+      gap: .7rem
+    }
+
+    .checklist li {
+      display: flex;
+      gap: .8rem;
+      align-items: flex-start
+    }
+
+    .checklist li::before {
+      content: "";
+      flex: none;
+      width: 9px;
+      height: 9px;
+      margin-top: .6rem;
+      background: var(--gold);
+      transform: rotate(45deg)
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.6rem
+    }
+
+    .g2 {
+      grid-template-columns: repeat(2, 1fr)
+    }
+
+    .g3 {
+      grid-template-columns: repeat(3, 1fr)
+    }
+
+    .g4 {
+      grid-template-columns: repeat(4, 1fr)
+    }
+
+    @media (max-width:1000px) {
+      .g4 {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .g3 {
+        grid-template-columns: repeat(2, 1fr)
+      }
+    }
+
+    @media (max-width:640px) {
+
+      .g2,
+      .g3,
+      .g4 {
+        grid-template-columns: 1fr
+      }
+    }
+
+    /* Category showcase (home) */
+    .cat-card {
+      position: relative;
+      display: block;
+      min-height: 440px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      color: #fff;
+      isolation: isolate;
+      box-shadow: var(--shadow)
+    }
+
+    .cat-card .bg {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      transition: transform .9s cubic-bezier(.2, .7, .2, 1)
+    }
+
+    .cat-card:hover .bg {
+      transform: scale(1.08)
+    }
+
+    .cat-card .bg svg {
+      width: 100%;
+      height: 100%
+    }
+
+    .cat-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(0deg, rgba(0, 0, 0, .85), transparent 60%)
+    }
+
+    .cat-body {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 2rem
+    }
+
+    .cat-body h3 {
+      color: #fff;
+      font-size: 2rem;
+      margin-bottom: .3rem
+    }
+
+    .cat-body p {
+      color: var(--champagne);
+      margin-bottom: 1rem
+    }
+
+    .cat-link {
+      display: inline-flex;
+      gap: .6rem;
+      align-items: center;
+      color: var(--gold);
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 3px;
+      letter-spacing: .06em
+    }
+
+    .cat-card:hover .cat-link {
+      gap: 1rem
+    }
+
+    .cat-link {
+      transition: gap .3s
+    }
+
+    /* Feature tiles */
+    .tile {
+      padding: 2rem 1.6rem;
+      background: #fff;
+      border: 1px solid rgba(212, 175, 55, .3);
+      border-radius: var(--radius);
+      transition: transform .35s, box-shadow .35s, border-color .35s;
+      height: 100%
+    }
+
+    .tile:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow);
+      border-color: var(--gold)
+    }
+
+    .tile .ico {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #1a1a1a, #000);
+      color: var(--gold);
+      margin-bottom: 1.1rem;
+      border: 1px solid var(--gold)
+    }
+
+    .tile .ico svg {
+      width: 26px;
+      height: 26px
+    }
+
+    .tile h3 {
+      font-size: 1.35rem
+    }
+
+    .tile p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .97rem
+    }
+
+    .dark .tile {
+      background: rgba(255, 255, 255, .04);
+      border-color: rgba(212, 175, 55, .3)
+    }
+
+    .dark .tile h3 {
+      color: #fff
+    }
+
+    .dark .tile p {
+      color: #c9c2ad
+    }
+
+    .dark .tile .ico {
+      background: rgba(212, 175, 55, .12)
+    }
+
+    /* Instagram band */
+    .insta {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: linear-gradient(120deg, #1a1405, #111 60%);
+      border: 1px solid var(--line);
+      color: #fff;
+      padding: clamp(2rem, 5vw, 3.5rem);
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 2rem;
+      align-items: center
+    }
+
+    .insta h2 {
+      color: #fff
+    }
+
+    .insta p {
+      color: #d8d0b8
+    }
+
+    .insta-handle {
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      color: var(--gold);
+      margin-bottom: 1.2rem;
+      word-break: break-all
+    }
+
+    .insta-art {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px
+    }
+
+    .insta-art div {
+      aspect-ratio: 1;
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid rgba(212, 175, 55, .35)
+    }
+
+    .insta-art svg {
+      width: 100%;
+      height: 100%
+    }
+
+    @media (max-width:800px) {
+      .insta {
+        grid-template-columns: 1fr
+      }
+
+      .insta-art {
+        max-width: 340px
+      }
+    }
+
+    /* CTA strip */
+    .cta-strip {
+      text-align: center;
+      background: linear-gradient(135deg, #f0d77a, var(--gold) 50%, #b38f1c);
+      padding: 3.5rem 0;
+      color: #1a1405
+    }
+
+    .cta-strip h2 {
+      color: #1a1405
+    }
+
+    .cta-strip p {
+      max-width: 56ch;
+      margin: 0 auto 1.6rem
+    }
+
+    /* About page */
+    .vm-card {
+      padding: 2.4rem;
+      border-radius: var(--radius);
+      background: #fff;
+      border: 1px solid rgba(212, 175, 55, .35);
+      position: relative;
+      overflow: hidden;
+      height: 100%
+    }
+
+    .vm-card::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      background: linear-gradient(var(--gold), var(--gold-deep))
+    }
+
+    .quote {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(1.5rem, 3.4vw, 2.2rem);
+      text-align: center;
+      max-width: 26ch;
+      margin: 0 auto;
+      color: var(--gold);
+      line-height: 1.3
+    }
+
+    /* 7. CARDS (products) ------------------------------------------------- */
+    .card {
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid rgba(17, 17, 17, .08);
+      display: flex;
+      flex-direction: column;
+      transition: transform .4s, box-shadow .4s, border-color .4s
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow);
+      border-color: var(--gold)
+    }
+
+    .card-media {
+      position: relative;
+      aspect-ratio: 1;
+      cursor: zoom-in;
+      overflow: hidden
+    }
+
+    .card-media.gold {
+      background: radial-gradient(circle at 50% 38%, #4a3a0d, #16120a 75%)
+    }
+
+    .card-media.silver {
+      background: radial-gradient(circle at 50% 38%, #5b6470, #14171c 75%)
+    }
+
+    .card-media svg,
+    .card-media img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform .7s cubic-bezier(.2, .7, .2, 1)
+    }
+
+    .card-media img {
+      object-fit: cover
+    }
+
+    .card:hover .card-media svg,
+    .card:hover .card-media img {
+      transform: scale(1.1) rotate(1.5deg)
+    }
+
+    .badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(17, 17, 17, .82);
+      color: var(--champagne);
+      border: 1px solid var(--gold);
+      padding: .15rem .75rem;
+      font-size: .78rem;
+      letter-spacing: .08em;
+      border-radius: 20px;
+      z-index: 2
+    }
+
+    .zoom {
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+      z-index: 2;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(17, 17, 17, .75);
+      color: var(--gold);
+      display: grid;
+      place-items: center;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: .3s;
+      border: 1px solid var(--gold)
+    }
+
+    .zoom svg {
+      position: static;
+      width: 18px;
+      height: 18px
+    }
+
+    .card:hover .zoom,
+    .card-media:focus-visible .zoom {
+      opacity: 1;
+      transform: none
+    }
+
+    .card-body {
+      padding: 1.3rem 1.3rem 1.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: .35rem;
+      flex: 1
+    }
+
+    .card-body h3 {
+      font-size: 1.4rem;
+      margin: 0
+    }
+
+    .card-body p {
+      font-size: .95rem;
+      color: var(--muted);
+      margin: 0 0 .9rem;
+      flex: 1
+    }
+
+    /* 8. COLLECTION ------------------------------------------------------- */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .8rem;
+      margin-bottom: 1rem
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--gold-deep);
+      color: var(--black);
+      padding: .7rem 1.7rem;
+      border-radius: 40px;
+      font: 500 .95rem var(--sans);
+      letter-spacing: .05em;
+      cursor: pointer;
+      transition: .3s
+    }
+
+    .filter-btn:hover {
+      background: var(--champagne)
+    }
+
+    .filter-btn.active {
+      background: var(--black);
+      color: var(--gold);
+      border-color: var(--black)
+    }
+
+    .filter-count {
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      min-height: 1.6em
+    }
+
+    .card.hide {
+      display: none
+    }
+
+    .card.pop {
+      animation: pop .5s both
+    }
+
+    @keyframes pop {
+      from {
+        opacity: 0;
+        transform: scale(.92)
+      }
+
+      to {
+        opacity: 1;
+        transform: none
+      }
+    }
+
+    .types {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      justify-content: center;
+      margin: 0 0 2.2rem;
+      padding: 0;
+      list-style: none
+    }
+
+    .types li {
+      font-size: .88rem;
+      padding: .25rem .9rem;
+      border: 1px dashed var(--gold-deep);
+      border-radius: 30px;
+      color: var(--muted)
+    }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 400;
+      background: rgba(10, 10, 10, .92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem
+    }
+
+    .lightbox.open {
+      display: flex;
+      animation: fade .3s
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    .lb-box {
+      background: var(--cream);
+      border-radius: var(--radius);
+      width: min(560px, 100%);
+      max-height: 94vh;
+      overflow: auto;
+      position: relative;
+      border: 1px solid var(--gold)
+    }
+
+    .lb-media {
+      aspect-ratio: 1;
+      position: relative
+    }
+
+    .lb-media svg,
+    .lb-media img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover
+    }
+
+    .lb-info {
+      padding: 1.3rem 1.5rem 1.6rem
+    }
+
+    .lb-info h3 {
+      margin-bottom: .2rem
+    }
+
+    .lb-info p {
+      color: var(--muted)
+    }
+
+    .lb-close,
+    .lb-nav {
+      position: absolute;
+      z-index: 5;
+      background: rgba(17, 17, 17, .8);
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.3rem;
+      line-height: 1;
+      display: grid;
+      place-items: center
+    }
+
+    .lb-close {
+      top: 12px;
+      right: 12px
+    }
+
+    .lb-nav.prev {
+      left: 12px;
+      top: calc(50% - 21px)
+    }
+
+    .lb-nav.next {
+      right: 12px;
+      top: calc(50% - 21px)
+    }
+
+    .lb-nav:hover,
+    .lb-close:hover {
+      background: var(--gold);
+      color: #111
+    }
+
+    /* 9. CONTACT ---------------------------------------------------------- */
+    .info-card {
+      background: #fff;
+      border: 1px solid rgba(212, 175, 55, .4);
+      border-radius: var(--radius);
+      padding: 1.8rem 1.4rem;
+      text-align: center;
+      transition: .35s;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+
+    .info-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow)
+    }
+
+    .info-card .ico {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--gold);
+      display: grid;
+      place-items: center;
+      margin-bottom: 1rem
+    }
+
+    .info-card .ico svg {
+      width: 24px;
+      height: 24px
+    }
+
+    .info-card h3 {
+      font-size: 1.3rem
+    }
+
+    .info-card p {
+      color: var(--muted);
+      margin: 0 0 1rem;
+      font-size: .97rem;
+      word-break: break-word
+    }
+
+    .info-card .btn {
+      margin-top: auto
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start
+    }
+
+    @media (max-width:900px) {
+      .contact-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .form-box {
+      background: #fff;
+      border: 1px solid rgba(212, 175, 55, .4);
+      border-radius: var(--radius);
+      padding: clamp(1.4rem, 4vw, 2.4rem);
+      box-shadow: var(--shadow)
+    }
+
+    .field {
+      margin-bottom: 1.2rem
+    }
+
+    .field label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: .35rem;
+      font-size: .95rem
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      padding: .85rem 1rem;
+      font: inherit;
+      color: var(--text);
+      background: var(--cream);
+      border: 1px solid #d9d0b8;
+      border-radius: 3px;
+      transition: border-color .25s, box-shadow .25s
+    }
+
+    .field textarea {
+      min-height: 130px;
+      resize: vertical
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(212, 175, 55, .25)
+    }
+
+    .field.invalid input,
+    .field.invalid select,
+    .field.invalid textarea {
+      border-color: #c0392b;
+      background: #fff6f5
+    }
+
+    .err {
+      display: none;
+      color: #b0291b;
+      font-size: .85rem;
+      margin-top: .3rem
+    }
+
+    .field.invalid .err {
+      display: block
+    }
+
+    .note {
+      font-size: .88rem;
+      color: var(--muted);
+      margin: 1rem 0 0
+    }
+
+    .form-ok {
+      display: none;
+      margin-top: 1rem;
+      padding: .9rem 1rem;
+      border-left: 4px solid #1f9d55;
+      background: #eaf7ef;
+      font-size: .95rem
+    }
+
+    .form-ok.show {
+      display: block
+    }
+
+    .map-box {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--gold);
+      box-shadow: var(--shadow);
+      background: #e9e3d2
+    }
+
+    .map-box iframe {
+      width: 100%;
+      height: 380px;
+      border: 0;
+      display: block
+    }
+
+    .map-actions {
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .8rem;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff
+    }
+
+    .map-actions address {
+      font-style: normal;
+      color: var(--muted);
+      font-size: .95rem;
+      flex: 1 1 240px
+    }
+
+    .enquiry-box {
+      background: var(--black);
+      color: #e9e3d2;
+      border-radius: var(--radius);
+      padding: clamp(1.6rem, 4vw, 2.6rem);
+      border: 1px solid var(--gold)
+    }
+
+    .enquiry-box h3 {
+      color: #fff
+    }
+
+    .enquiry-box .quick {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .7rem;
+      margin-top: 1.2rem
+    }
+
+    /* 10. FOOTER ---------------------------------------------------------- */
+    .site-footer {
+      background: #0b0b0b;
+      color: #cfc7b0;
+      padding: 4rem 0 0;
+      border-top: 3px solid var(--gold)
+    }
+
+    .foot-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1.2fr;
+      gap: 2.5rem;
+      padding-bottom: 3rem
+    }
+
+    @media (max-width:860px) {
+      .foot-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .site-footer h4 {
+      color: var(--gold);
+      font-size: 1.3rem;
+      margin-bottom: 1rem
+    }
+
+    .site-footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: .5rem
+    }
+
+    .site-footer a:hover {
+      color: var(--gold)
+    }
+
+    .site-footer address {
+      font-style: normal;
+      margin-bottom: .8rem
+    }
+
+    .foot-bottom {
+      border-top: 1px solid rgba(212, 175, 55, .25);
+      padding: 1.3rem 0;
+      text-align: center;
+      font-size: .9rem;
+      color: #9a9380
+    }
+
+    /* 11. UTILITIES ------------------------------------------------------- */
+    .page {
+      display: none
+    }
+
+    .page.active {
+      display: block;
+      animation: fade .5s
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity .8s ease, transform .8s ease
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none
+    }
+
+    .float-wa {
+      position: fixed;
+      left: 18px;
+      bottom: 18px;
+      z-index: 150;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #1f9d55;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 10px 24px -6px rgba(0, 0, 0, .55);
+      transition: transform .3s
+    }
+
+    .float-wa:hover {
+      transform: scale(1.1)
+    }
+
+    .float-wa svg {
+      width: 30px;
+      height: 30px
+    }
+
+    .float-wa::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 2px solid #1f9d55;
+      animation: ring 2.4s infinite
+    }
+
+    @keyframes ring {
+      0% {
+        transform: scale(1);
+        opacity: .8
+      }
+
+      100% {
+        transform: scale(1.6);
+        opacity: 0
+      }
+    }
+
+    .to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 150;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(14px);
+      transition: .3s
+    }
+
+    .to-top.show {
+      opacity: 1;
+      visibility: visible;
+      transform: none
+    }
+
+    .to-top:hover {
+      background: var(--gold);
+      color: #111
+    }
+
+    .to-top svg {
+      width: 22px;
+      height: 22px
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#main" class="skip" data-skip>Skip to main content</a>
+
+  <!-- Shared SVG sprite: icons used across pages -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 1.67c2.2 0 4.26.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.26-8.24zM8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28-.25-.13-1.47-.73-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.48z" />
+      </symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8"
+          d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9z" />
+        <circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" />
+        <circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="i-gem" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M6 3h12l4 6-10 12L2 9zM2 9h20M9 3l-2 6 5 12 5-12-2-6" />
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z" />
+      </symbol>
+      <symbol id="i-hand" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+          d="M2 12l5-2 4 2 4-2 5 2M7 10l5-5 5 5M4 14l4 5 4-2 4 2 4-5" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5zM8.5 12l2.5 2.5 4.5-5" />
+      </symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 4h16v12H9l-5 4z" />
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" />
+      </symbol>
+      <symbol id="i-zoom" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4M11 8v6M8 11h6" />
+      </symbol>
+      <symbol id="i-up" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+          d="M12 19V5M5 12l7-7 7 7" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"
+          d="M3 5h18v14H3zM3 6l9 7 9-7" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a href="#/home" class="logo" aria-label="SWATI JEWELLERS – Home">
+        <!-- Logo drawn in SVG so no image file is needed -->
+        <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-label="Swati Jewellers diamond logo">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#F6E3A1" />
+              <stop offset=".5" stop-color="#D4AF37" />
+              <stop offset="1" stop-color="#9C7A12" />
+            </linearGradient>
+          </defs>
+          <circle cx="32" cy="32" r="30" fill="#111" stroke="url(#lg)" stroke-width="2" />
+          <path d="M18 24h28l6 8-20 20L12 32z" fill="url(#lg)" transform="translate(0 -6) scale(1 .96)" />
+          <path d="M18 18h28M26 18l6 26M38 18l-6 26M12 26h40" stroke="#111" stroke-width="1.4" fill="none" opacity=".55"
+            transform="translate(0 2)" />
+        </svg>
+        <span class="logo-text"><b>SWATI</b><small>JEWELLERS</small></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"
+        aria-controls="navLinks"><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#/home" data-route="home">Home</a></li>
+        <li><a href="#/about" data-route="about">About Us</a></li>
+        <li><a href="#/collection" data-route="collection">Our Collection</a></li>
+        <li><a href="#/contact" data-route="contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ====================================================================
+     PAGE 1 : HOME
+     ==================================================================== -->
+    <div class="page" id="page-home">
+
+      <section class="hero" aria-label="Welcome">
+        <div class="hero-pattern"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-tag">Tradition • Trust • Elegance</p>
+            <h1>Discover the Beauty of <em>Timeless</em> Jewellery</h1>
+            <p class="sub">Tradition, Trust and Elegance – All in One Place.</p>
+            <div class="hero-actions">
+              <a href="#/collection" class="btn btn-gold">Explore Collection</a>
+              <a class="btn btn-outline"
+                data-wa="Hello SWATI JEWELLERS, I would like to know more about your jewellery." target="_blank"
+                rel="noopener">
+                <svg>
+                  <use href="#i-wa" />
+                </svg> Chat on WhatsApp</a>
+            </div>
+          </div>
+          <!-- Animated golden rosette -->
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 400 400" id="heroRosette"></svg>
+          </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">SCROLL<i></i></div>
+      </section>
+
+      <!-- About intro -->
+      <section class="section" id="home-about">
+        <div class="container split">
+          <div class="split-media reveal">
+            <div class="frame" data-art="necklace" data-metal="gold"></div>
+          </div>
+          <div class="reveal">
+            <h2>About SWATI JEWELLERS</h2>
+            <div class="ornament" style="justify-content:flex-start">✦</div>
+            <p class="lead">SWATI JEWELLERS is a gold and silver jewellery shop in Tirvediganj, Barabanki, Uttar
+              Pradesh. Our tagline says it simply: A Touch of Tradition, A Symbol of Elegance.</p>
+            <p>From daily-wear pieces to jewellery for weddings and festivals, we help families find ornaments that feel
+              personal. Visit the shop, or message us on WhatsApp and we will help you choose.</p>
+            <a href="#/about" class="btn btn-dark">Read Our Story</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section class="section champagne" id="home-categories">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Gold and Silver, Made for Every Occasion</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">Two collections, each with traditional designs and everyday favourites.</p>
+          </div>
+          <div class="grid g2">
+            <a href="#/collection" class="cat-card reveal" data-filter-go="gold" aria-label="View gold jewellery">
+              <div class="bg" data-art="bridal" data-metal="gold" data-bg="gold"></div>
+              <div class="cat-body">
+                <h3>Gold Jewellery</h3>
+                <p>Necklaces, earrings, rings, bangles, traditional and bridal sets.</p><span class="cat-link">View Gold
+                  Collection</span>
+              </div>
+            </a>
+            <a href="#/collection" class="cat-card reveal" data-filter-go="silver" aria-label="View silver jewellery">
+              <div class="bg" data-art="anklet" data-metal="silver" data-bg="silver"></div>
+              <div class="cat-body">
+                <h3>Silver Jewellery</h3>
+                <p>Anklets, rings, chains, bracelets and traditional silver pieces.</p><span class="cat-link">View
+                  Silver Collection</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured gallery (filled by JS) -->
+      <section class="section" id="home-featured">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Featured Jewellery</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">A small selection from our collection. Tap any piece to view it larger.</p>
+          </div>
+          <div class="grid g3" id="featuredGrid"></div>
+          <p style="text-align:center;margin-top:2.5rem"><a href="#/collection" class="btn btn-outline"
+              style="color:var(--black);border-color:var(--black)">See Full Collection</a></p>
+        </div>
+      </section>
+
+      <!-- Why choose us -->
+      <section class="section dark" id="home-why">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Why Choose Us</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">What you can expect when you shop with SWATI JEWELLERS.</p>
+          </div>
+          <div class="grid g4">
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-gem" />
+                </svg></div>
+              <h3>Gold and Silver, One Shop</h3>
+              <p>Find both metals under one roof, from simple daily pieces to festive ornaments.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-hand" />
+                </svg></div>
+              <h3>Traditional Designs</h3>
+              <p>Classic Indian patterns that suit weddings, festivals and family occasions.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-heart" />
+                </svg></div>
+              <h3>Personal Service</h3>
+              <p>Tell us what you are looking for and we will guide you to the right piece.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-chat" />
+                </svg></div>
+              <h3>Easy WhatsApp Enquiry</h3>
+              <p>Ask about any design on WhatsApp, anytime, before you visit the shop.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer trust -->
+      <section class="section" id="home-trust">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Jewellery You Can Trust</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">Trust is the second word in our tagline, and the way we try to treat every customer.</p>
+          </div>
+          <div class="grid g3">
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-shield" />
+                </svg></div>
+              <h3>Honest Dealing</h3>
+              <p>Clear answers to your questions about designs and options, with no pressure to buy.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-star" />
+                </svg></div>
+              <h3>Care for Every Customer</h3>
+              <p>Whether it is a small silver ring or a bridal set, each customer gets the same attention.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-pin" />
+                </svg></div>
+              <h3>Local and Easy to Reach</h3>
+              <p>Find us in Tirvediganj, Barabanki, or reach us by phone and WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instagram -->
+      <section class="section" style="padding-top:0" id="home-instagram">
+        <div class="container">
+          <div class="insta reveal">
+            <div>
+              <h2>Follow Us on Instagram</h2>
+              <p class="insta-handle">@soni____1813</p>
+              <p>See our latest designs and updates on Instagram, then message us to enquire about any piece you like.
+              </p>
+              <a class="btn btn-gold" href="https://www.instagram.com/soni____1813/" target="_blank"
+                rel="noopener"><svg>
+                  <use href="#i-ig" />
+                </svg> Follow on Instagram</a>
+            </div>
+            <div class="insta-art" aria-hidden="true">
+              <div data-art="earrings" data-metal="gold" data-bg="gold"></div>
+              <div data-art="ring" data-metal="silver" data-bg="silver"></div>
+              <div data-art="bangle" data-metal="gold" data-bg="gold"></div>
+              <div data-art="chain" data-metal="silver" data-bg="silver"></div>
+              <div data-art="traditional" data-metal="gold" data-bg="gold"></div>
+              <div data-art="bracelet" data-metal="silver" data-bg="silver"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WhatsApp CTA -->
+      <section class="cta-strip" id="home-whatsapp">
+        <div class="container reveal">
+          <h2>Looking for something special?</h2>
+          <p>Send us a message on WhatsApp and tell us what you need. We will get back to you.</p>
+          <a class="btn btn-dark" data-wa="Hello SWATI JEWELLERS, I am looking for jewellery. Please help me."
+            target="_blank" rel="noopener"><svg>
+              <use href="#i-wa" />
+            </svg> Message on WhatsApp</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ====================================================================
+     PAGE 2 : ABOUT US
+     ==================================================================== -->
+    <div class="page" id="page-about">
+      <section class="page-banner">
+        <div class="container">
+          <p class="crumbs">Home / About Us</p>
+          <h1>About SWATI JEWELLERS</h1>
+          <p>A Touch of Tradition, A Symbol of Elegance.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div class="reveal">
+            <h2>Who We Are</h2>
+            <div class="ornament" style="justify-content:flex-start">✦</div>
+            <p class="lead">SWATI JEWELLERS is a gold and silver jewellery business located in Tirvediganj, near
+              Lonikatra Police Station, Tehsil Haidergarh, District Barabanki, Uttar Pradesh.</p>
+            <p>We bring together traditional Indian jewellery and a friendly, trustworthy way of doing business. Our
+              shop serves customers who want ornaments for weddings, festivals, gifting and everyday wear.</p>
+            <a href="#/contact" class="btn btn-gold">Contact Us</a>
+          </div>
+          <div class="split-media reveal">
+            <div class="frame" data-art="traditional" data-metal="gold"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section champagne">
+        <div class="container split flip">
+          <div class="split-media reveal">
+            <div class="frame" data-art="bridal" data-metal="gold"></div>
+          </div>
+          <div class="reveal">
+            <h2>Our Brand Story</h2>
+            <div class="ornament" style="justify-content:flex-start">✦</div>
+            <p>In Indian homes, jewellery marks the moments that matter: a wedding, a festival, a new beginning, a gift
+              for someone loved. SWATI JEWELLERS was created to be a place where these moments are met with care.</p>
+            <p>Our three words, Tradition, Trust and Elegance, guide how we choose designs and how we speak with
+              customers. Tradition shapes the ornaments we offer. Trust shapes how we deal with you. Elegance shapes how
+              every piece looks and feels when you wear it.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Our Vision and Mission</h2>
+            <div class="ornament">✦</div>
+          </div>
+          <div class="grid g2">
+            <div class="vm-card reveal">
+              <h3>Our Vision</h3>
+              <p>To be the jewellery shop that families in and around Barabanki turn to first, known for traditional
+                designs, honest dealing and warm service.</p>
+            </div>
+            <div class="vm-card reveal">
+              <h3>Our Mission</h3>
+              <p>To offer a thoughtful range of gold and silver jewellery, answer every customer's questions clearly,
+                and make choosing jewellery a comfortable, enjoyable experience.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Our Commitment to Customers</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">What we promise to every person who walks in or messages us.</p>
+          </div>
+          <div class="grid g3">
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-shield" />
+                </svg></div>
+              <h3>Trust First</h3>
+              <p>We answer questions openly and help you decide at your own pace.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-heart" />
+                </svg></div>
+              <h3>Respect for Every Budget</h3>
+              <p>Our range includes both gold and silver, so there is something for different needs and occasions.</p>
+            </div>
+            <div class="tile reveal">
+              <div class="ico"><svg>
+                  <use href="#i-chat" />
+                </svg></div>
+              <h3>Always Reachable</h3>
+              <p>Call or message on WhatsApp, and we will respond to your enquiry.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div class="reveal">
+            <h2>Gold and Silver Jewellery</h2>
+            <div class="ornament" style="justify-content:flex-start">✦</div>
+            <p class="lead">Two metals, each loved for different reasons.</p>
+            <ul class="checklist">
+              <li><span><b>Gold jewellery:</b> necklaces, earrings, rings, bangles, traditional pieces and bridal
+                  jewellery.</span></li>
+              <li><span><b>Silver jewellery:</b> anklets, rings, chains, bracelets and traditional silver pieces.</span>
+              </li>
+            </ul>
+            <a href="#/collection" class="btn btn-dark">View Collection</a>
+          </div>
+          <div class="split-media reveal">
+            <div class="grid g2" style="gap:1rem">
+              <div class="frame wide" data-art="bangle" data-metal="gold"></div>
+              <div class="frame wide" data-art="anklet" data-metal="silver"></div>
+              <div class="frame wide" data-art="earrings" data-metal="gold"></div>
+              <div class="frame wide" data-art="chain" data-metal="silver"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section champagne" style="text-align:center">
+        <div class="container reveal">
+          <p class="quote">A Touch of Tradition, A Symbol of Elegance.</p>
+          <p style="margin:1.5rem 0 1.8rem;color:var(--muted)">We would be happy to help you find your next piece.</p>
+          <a href="#/contact" class="btn btn-gold">Contact Us</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ====================================================================
+     PAGE 3 : OUR COLLECTION
+     ==================================================================== -->
+    <div class="page" id="page-collection">
+      <section class="page-banner">
+        <div class="container">
+          <p class="crumbs">Home / Our Collection</p>
+          <h1>Our Collection</h1>
+          <p>Gold and silver jewellery, from daily wear to bridal and traditional pieces.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filters" role="group" aria-label="Filter jewellery by metal">
+            <button class="filter-btn active" data-filter="all">All Jewellery</button>
+            <button class="filter-btn" data-filter="gold">Gold Jewellery</button>
+            <button class="filter-btn" data-filter="silver">Silver Jewellery</button>
+          </div>
+          <p class="filter-count" id="filterCount" aria-live="polite"></p>
+          <div class="grid g3" id="productGrid"></div>
+          <p class="note" style="text-align:center;margin-top:2.5rem">Designs and availability vary. Message us on
+            WhatsApp to ask about any piece.</p>
+        </div>
+      </section>
+
+      <section class="cta-strip">
+        <div class="container reveal">
+          <h2>Can't find what you want?</h2>
+          <p>Describe the jewellery you are looking for and we will help you.</p>
+          <a class="btn btn-dark"
+            data-wa="Hello SWATI JEWELLERS, I am looking for a specific jewellery design. Can you help me?"
+            target="_blank" rel="noopener"><svg>
+              <use href="#i-wa" />
+            </svg> Ask on WhatsApp</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ====================================================================
+     PAGE 4 : CONTACT US
+     ==================================================================== -->
+    <div class="page" id="page-contact">
+      <section class="page-banner">
+        <div class="container">
+          <p class="crumbs">Home / Contact Us</p>
+          <h1>Contact Us</h1>
+          <p>SWATI JEWELLERS – we would love to hear from you.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid g4">
+            <div class="info-card reveal">
+              <div class="ico"><svg>
+                  <use href="#i-gem" />
+                </svg></div>
+              <h3>Shop</h3>
+              <p>SWATI JEWELLERS<br>Tradition • Trust • Elegance</p>
+            </div>
+            <div class="info-card reveal">
+              <div class="ico"><svg>
+                  <use href="#i-phone" />
+                </svg></div>
+              <h3>Call Us</h3>
+              <p>+91 90055 33628</p><a class="btn btn-dark btn-sm" href="tel:+919005533628">Call Now</a>
+            </div>
+            <div class="info-card reveal">
+              <div class="ico"><svg>
+                  <use href="#i-wa" />
+                </svg></div>
+              <h3>WhatsApp</h3>
+              <p>+91 90055 33628</p><a class="btn btn-wa btn-sm"
+                data-wa="Hello SWATI JEWELLERS, I would like to enquire about your jewellery." target="_blank"
+                rel="noopener">Chat on WhatsApp</a>
+            </div>
+            <div class="info-card reveal">
+              <div class="ico"><svg>
+                  <use href="#i-ig" />
+                </svg></div>
+              <h3>Instagram</h3>
+              <p>@soni____1813</p><a class="btn btn-gold btn-sm" href="https://www.instagram.com/soni____1813/"
+                target="_blank" rel="noopener">View Profile</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section champagne" style="padding-top:clamp(3rem,6vw,5rem)">
+        <div class="container contact-grid">
+          <!-- Enquiry form -->
+          <div class="form-box reveal">
+            <h2 style="font-size:2rem">Send an Enquiry</h2>
+            <p class="lead" style="font-size:1rem">Fill in the details and your enquiry opens in WhatsApp, ready to
+              send.</p>
+            <form id="enquiryForm" novalidate>
+              <div class="field" data-field="name">
+                <label for="cName">Customer Name</label>
+                <input id="cName" name="name" type="text" autocomplete="name" placeholder="Your full name">
+                <span class="err">Enter your name (at least 2 letters).</span>
+              </div>
+              <div class="field" data-field="mobile">
+                <label for="cMobile">Mobile Number</label>
+                <input id="cMobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel"
+                  placeholder="10-digit mobile number">
+                <span class="err">Enter a valid 10-digit Indian mobile number starting with 6, 7, 8 or 9.</span>
+              </div>
+              <div class="field" data-field="interest">
+                <label for="cInterest">Jewellery Interest</label>
+                <select id="cInterest" name="interest">
+                  <option value="">Select Gold or Silver</option>
+                  <option value="Gold">Gold</option>
+                  <option value="Silver">Silver</option>
+                </select>
+                <span class="err">Please choose Gold or Silver.</span>
+              </div>
+              <div class="field" data-field="message">
+                <label for="cMessage">Message</label>
+                <textarea id="cMessage" name="message" placeholder="Tell us what you are looking for"></textarea>
+                <span class="err">Write a short message (at least 5 characters).</span>
+              </div>
+              <button type="submit" class="btn btn-gold" style="width:100%">Send Enquiry on WhatsApp</button>
+              <p class="form-ok" id="formOk" role="status">Opening WhatsApp with your enquiry. Press Send there to
+                deliver it to us.</p>
+              <p class="note">This form does not store your details on any server. It only prepares a WhatsApp message
+                that you send yourself.</p>
+            </form>
+          </div>
+
+          <!-- Business enquiry + address -->
+          <div class="reveal">
+            <div class="enquiry-box">
+              <h3>Business Enquiry</h3>
+              <p>For bulk orders, wedding jewellery requirements or any business-related question, message us directly.
+              </p>
+              <div class="quick">
+                <a class="btn btn-wa"
+                  data-wa="Hello SWATI JEWELLERS, I have a business enquiry about bulk or wedding jewellery requirements."
+                  target="_blank" rel="noopener"><svg>
+                    <use href="#i-wa" />
+                  </svg> Business Enquiry</a>
+                <a class="btn btn-outline" href="tel:+919005533628"><svg>
+                    <use href="#i-phone" />
+                  </svg> Call</a>
+              </div>
+            </div>
+            <div class="info-card" style="margin-top:1.5rem;align-items:flex-start;text-align:left">
+              <div class="ico"><svg>
+                  <use href="#i-pin" />
+                </svg></div>
+              <h3>Shop Address</h3>
+              <p style="margin:0">
+              <address style="font-style:normal">SWATI JEWELLERS<br>Tirvediganj, Police Station Lonikatra,<br>Tehsil
+                Haidergarh, District Barabanki,<br>Uttar Pradesh, India.</address>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Find Us on the Map</h2>
+            <div class="ornament">✦</div>
+            <p class="lead">Search results for Tirvediganj, Barabanki, Uttar Pradesh.</p>
+          </div>
+          <div class="map-box reveal">
+            <iframe id="mapFrame" title="Map of Tirvediganj, Barabanki, Uttar Pradesh" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Tirvediganj%2C%20Barabanki%2C%20Uttar%20Pradesh&amp;output=embed"></iframe>
+            <div class="map-actions">
+              <address>Tirvediganj, Police Station Lonikatra, Tehsil Haidergarh, District Barabanki, Uttar Pradesh,
+                India.</address>
+              <a class="btn btn-dark" target="_blank" rel="noopener"
+                href="https://www.google.com/maps/search/?api=1&amp;query=Tirvediganj%2C%20Barabanki%2C%20Uttar%20Pradesh">Open
+                in Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container foot-grid">
+      <div>
+        <a href="#/home" class="logo" style="margin-bottom:1rem"><span
+            class="logo-text"><b>SWATI</b><small>JEWELLERS</small></span></a>
+        <p>Tradition • Trust • Elegance</p>
+        <p style="font-style:italic;font-family:var(--serif);font-size:1.15rem;color:var(--champagne)">A Touch of
+          Tradition, A Symbol of Elegance.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#/home">Home</a></li>
+          <li><a href="#/about">About Us</a></li>
+          <li><a href="#/collection">Our Collection</a></li>
+          <li><a href="#/contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit and Contact</h4>
+        <address>Tirvediganj, Police Station Lonikatra,<br>Tehsil Haidergarh, District Barabanki,<br>Uttar Pradesh,
+          India.</address>
+        <ul>
+          <li><a href="tel:+919005533628">Phone: +91 90055 33628</a></li>
+          <li><a data-wa="Hello SWATI JEWELLERS, I would like to enquire about your jewellery." target="_blank"
+              rel="noopener">WhatsApp: +91 90055 33628</a></li>
+          <li><a href="https://www.instagram.com/soni____1813/" target="_blank" rel="noopener">Instagram:
+              @soni____1813</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">© <span id="year"></span> SWATI JEWELLERS. All rights reserved.</div>
+  </footer>
+
+  <!-- Floating buttons -->
+  <a class="float-wa" data-wa="Hello SWATI JEWELLERS, I would like to enquire about your jewellery." target="_blank"
+    rel="noopener" aria-label="Chat on WhatsApp"><svg>
+      <use href="#i-wa" />
+    </svg></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><svg>
+      <use href="#i-up" />
+    </svg></button>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Jewellery preview">
+    <div class="lb-box">
+      <button class="lb-close" id="lbClose" aria-label="Close preview">×</button>
+      <button class="lb-nav prev" id="lbPrev" aria-label="Previous piece">‹</button>
+      <button class="lb-nav next" id="lbNext" aria-label="Next piece">›</button>
+      <div class="lb-media" id="lbMedia"></div>
+      <div class="lb-info">
+        <h3 id="lbTitle"></h3>
+        <p id="lbDesc"></p>
+        <a class="btn btn-wa" id="lbWa" target="_blank" rel="noopener"><svg>
+            <use href="#i-wa" />
+          </svg> Enquire on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* =====================================================================
+       SWATI JEWELLERS – Script
+       1. Config  2. Jewellery art (SVG)  3. Products  4. Router + SEO
+       5. Nav  6. Gallery & filters  7. WhatsApp  8. Form  9. Effects
+       ===================================================================== */
+    (function () {
+      'use strict';
+
+      /* 1. CONFIG ---------------------------------------------------------- */
+      var WA_NUMBER = '919005533628';
+
+      /* OPTIONAL REAL PHOTOS: add a photo path per product id, e.g.
+           'gold-necklace': 'images/gold-necklace.jpg'
+         If a photo is missing or fails to load, the built-in golden
+         illustration is shown automatically. */
+      var PHOTOS = {
+        /* 'gold-necklace': 'images/gold-necklace.jpg', */
+      };
+
+      function waLink(text) {
+        return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(text);
+      }
+
+      /* 2. JEWELLERY ART (inline SVG so the site never shows broken images) */
+      var uid = 0;
+      function palette(metal) {
+        return metal === 'silver'
+          ? { a: '#FFFFFF', b: '#C3CAD3', c: '#6F7782', glow: '#cfd8e3' }
+          : { a: '#FBEBB0', b: '#D4AF37', c: '#8A6A0E', glow: '#f0d77a' };
+      }
+      function bgFor(metal) {
+        return metal === 'silver'
+          ? ['#5b6470', '#14171c']
+          : ['#4a3a0d', '#16120a'];
+      }
+
+      function shape(type, G, G2) {
+        var s = '', i, a, x, y;
+        switch (type) {
+          case 'ring':
+            s += '<circle cx="100" cy="118" r="46" fill="none" stroke="' + G + '" stroke-width="13"/>';
+            s += '<circle cx="100" cy="118" r="39" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="1.5"/>';
+            s += '<path d="M100 38l24 22-24 28-24-28z" fill="' + G2 + '" stroke="' + G + '" stroke-width="3"/>';
+            s += '<path d="M76 60h48M100 38l-9 22 9 28 9-28z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="1.4"/>';
+            break;
+          case 'necklace':
+            s += '<path d="M28 44Q100 196 172 44" fill="none" stroke="' + G + '" stroke-width="7" stroke-linecap="round"/>';
+            for (i = 1; i < 9; i++) {
+              var t = i / 9; x = (1 - t) * (1 - t) * 28 + 2 * (1 - t) * t * 100 + t * t * 172;
+              y = (1 - t) * (1 - t) * 44 + 2 * (1 - t) * t * 196 + t * t * 44;
+              s += '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="5" fill="' + G2 + '"/>';
+            }
+            s += '<path d="M100 122l14 14-14 30-14-30z" fill="' + G2 + '" stroke="' + G + '" stroke-width="3"/>';
+            s += '<circle cx="100" cy="126" r="4" fill="#fff" opacity=".7"/>';
+            break;
+          case 'earrings':
+            [62, 138].forEach(function (cx) {
+              s += '<circle cx="' + cx + '" cy="38" r="8" fill="none" stroke="' + G + '" stroke-width="4"/>';
+              s += '<path d="M' + cx + ' 46v22" stroke="' + G + '" stroke-width="4"/>';
+              s += '<circle cx="' + cx + '" cy="78" r="10" fill="' + G2 + '"/>';
+              s += '<path d="M' + cx + ' 92c-24 22-26 56 0 70 26-14 24-48 0-70z" fill="' + G2 + '" stroke="' + G + '" stroke-width="4"/>';
+              s += '<circle cx="' + cx + '" cy="130" r="6" fill="#fff" opacity=".55"/>';
+            });
+            break;
+          case 'bangle':
+            s += '<ellipse cx="100" cy="100" rx="66" ry="66" fill="none" stroke="' + G + '" stroke-width="16"/>';
+            s += '<ellipse cx="100" cy="100" rx="66" ry="66" fill="none" stroke="rgba(0,0,0,.35)" stroke-width="2" stroke-dasharray="3 7"/>';
+            s += '<ellipse cx="100" cy="100" rx="46" ry="46" fill="none" stroke="' + G2 + '" stroke-width="6" opacity=".9"/>';
+            for (i = 0; i < 12; i++) { a = i * Math.PI / 6; s += '<circle cx="' + (100 + 66 * Math.cos(a)).toFixed(1) + '" cy="' + (100 + 66 * Math.sin(a)).toFixed(1) + '" r="3.2" fill="#fff" opacity=".7"/>'; }
+            break;
+          case 'anklet':
+            s += '<path d="M22 58Q100 176 178 58" fill="none" stroke="' + G + '" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 9"/>';
+            s += '<path d="M22 58Q100 176 178 58" fill="none" stroke="' + G2 + '" stroke-width="2.5" stroke-linecap="round"/>';
+            for (i = 1; i < 8; i++) {
+              var u = i / 8; x = (1 - u) * (1 - u) * 22 + 2 * (1 - u) * u * 100 + u * u * 178;
+              y = (1 - u) * (1 - u) * 58 + 2 * (1 - u) * u * 176 + u * u * 58;
+              s += '<circle cx="' + x.toFixed(1) + '" cy="' + (y + 12).toFixed(1) + '" r="7" fill="' + G2 + '" stroke="' + G + '" stroke-width="2"/>';
+              s += '<path d="M' + (x - 4).toFixed(1) + ' ' + (y + 13).toFixed(1) + 'h8" stroke="rgba(0,0,0,.4)" stroke-width="1.5"/>';
+            }
+            break;
+          case 'chain':
+            for (i = 0; i < 9; i++) {
+              var k = i / 8; x = 24 + k * 152; y = 62 + Math.sin(k * Math.PI) * 76;
+              var rot = (i % 2 ? 0 : 90) + (k - .5) * 50;
+              s += '<ellipse cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" rx="16" ry="9" fill="none" stroke="' + G + '" stroke-width="5" transform="rotate(' + rot.toFixed(0) + ' ' + x.toFixed(1) + ' ' + y.toFixed(1) + ')"/>';
+            }
+            s += '<circle cx="100" cy="146" r="9" fill="' + G2 + '" stroke="' + G + '" stroke-width="3"/>';
+            break;
+          case 'bracelet':
+            s += '<circle cx="100" cy="100" r="62" fill="none" stroke="' + G + '" stroke-width="5"/>';
+            for (i = 0; i < 16; i++) { a = i * Math.PI / 8; s += '<circle cx="' + (100 + 62 * Math.cos(a)).toFixed(1) + '" cy="' + (100 + 62 * Math.sin(a)).toFixed(1) + '" r="7" fill="' + G2 + '" stroke="' + G + '" stroke-width="2"/>'; }
+            s += '<path d="M100 170l9 10-9 12-9-12z" fill="' + G2 + '" stroke="' + G + '" stroke-width="2.5"/>';
+            break;
+          case 'bridal':
+            s += '<path d="M24 52Q100 150 176 52" fill="none" stroke="' + G + '" stroke-width="8" stroke-linecap="round"/>';
+            s += '<path d="M40 60Q100 134 160 60" fill="none" stroke="' + G2 + '" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/>';
+            s += medallion(100, 126, 38, G, G2);
+            s += '<circle cx="100" cy="176" r="6" fill="' + G2 + '"/>';
+            break;
+          case 'traditional':
+            // Jhumka-style ornament
+            [62, 138].forEach(function (cx) {
+              s += '<circle cx="' + cx + '" cy="34" r="7" fill="' + G2 + '"/>';
+              s += '<path d="M' + (cx - 34) + ' 100a34 34 0 0 1 68 0z" fill="' + G2 + '" stroke="' + G + '" stroke-width="4"/>';
+              s += '<path d="M' + cx + ' 41v28" stroke="' + G + '" stroke-width="4"/>';
+              s += '<path d="M' + (cx - 34) + ' 100h68" stroke="' + G + '" stroke-width="6"/>';
+              for (var j = -2; j <= 2; j++) {
+                s += '<circle cx="' + (cx + j * 14) + '" cy="116" r="5" fill="' + G2 + '" stroke="' + G + '" stroke-width="1.5"/>';
+                s += '<circle cx="' + (cx + j * 14) + '" cy="128" r="3" fill="' + G + '"/>';
+              }
+              s += '<circle cx="' + cx + '" cy="86" r="6" fill="#fff" opacity=".55"/>';
+            });
+            break;
+        }
+        return s;
+      }
+
+      function medallion(cx, cy, r, G, G2) {
+        var s = '', i;
+        for (i = 0; i < 8; i++) {
+          s += '<ellipse cx="' + cx + '" cy="' + (cy - r * .55) + '" rx="' + (r * .22) + '" ry="' + (r * .5) + '" fill="' + G2 + '" stroke="' + G + '" stroke-width="2" transform="rotate(' + (i * 45) + ' ' + cx + ' ' + cy + ')"/>';
+        }
+        s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r * .3) + '" fill="' + G + '"/>';
+        s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r * .13) + '" fill="#fff" opacity=".8"/>';
+        return s;
+      }
+
+      function art(type, metal, withBg) {
+        var id = 'g' + (++uid), p = palette(metal), bg = bgFor(metal);
+        var G = 'url(#' + id + ')', G2 = 'url(#' + id + 'b)';
+        var svg = '<svg viewBox="0 0 200 200" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">' +
+          '<defs>' +
+          '<linearGradient id="' + id + '" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="' + p.a + '"/><stop offset=".5" stop-color="' + p.b + '"/><stop offset="1" stop-color="' + p.c + '"/></linearGradient>' +
+          '<linearGradient id="' + id + 'b" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="' + p.a + '"/><stop offset=".55" stop-color="' + p.b + '"/><stop offset="1" stop-color="' + p.c + '"/></linearGradient>' +
+          '<radialGradient id="' + id + 'r" cx=".5" cy=".4" r=".75"><stop offset="0" stop-color="' + bg[0] + '"/><stop offset="1" stop-color="' + bg[1] + '"/></radialGradient>' +
+          '</defs>';
+        if (withBg) svg += '<rect width="200" height="200" fill="url(#' + id + 'r)"/>';
+        svg += '<g transform="translate(100 100) scale(.86) translate(-100 -100)">' + shape(type, G, G2) + '</g>';
+        // Little sparkles
+        svg += '<g fill="#fff" opacity=".8"><path d="M30 34l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M168 150l1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5z"/></g></svg>';
+        return svg;
+      }
+
+      /* Hero rosette – the one animated showpiece */
+      function heroRosette() {
+        var s = '<defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEBB0"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#8A6A0E"/></linearGradient>' +
+          '<radialGradient id="hglow"><stop offset="0" stop-color="#D4AF37" stop-opacity=".5"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></radialGradient></defs>';
+        s += '<circle class="glow" cx="200" cy="200" r="195" fill="url(#hglow)"/>';
+        s += '<g class="spin-slow">';
+        for (var i = 0; i < 16; i++) s += '<ellipse cx="200" cy="82" rx="17" ry="64" fill="none" stroke="url(#hg)" stroke-width="2.4" transform="rotate(' + (i * 22.5) + ' 200 200)"/>';
+        s += '</g><g class="spin-rev">';
+        for (var j = 0; j < 12; j++) s += '<ellipse cx="200" cy="120" rx="15" ry="42" fill="rgba(212,175,55,.18)" stroke="url(#hg)" stroke-width="2.4" transform="rotate(' + (j * 30) + ' 200 200)"/>';
+        s += '<circle cx="200" cy="200" r="172" fill="none" stroke="url(#hg)" stroke-width="1.5" stroke-dasharray="2 8" stroke-linecap="round"/>';
+        s += '</g>';
+        s += '<circle cx="200" cy="200" r="58" fill="#111" stroke="url(#hg)" stroke-width="3"/>';
+        s += '<path d="M200 156l34 34-34 54-34-54z" fill="url(#hg)"/>';
+        s += '<path d="M166 190h68M200 156l-13 34 13 54 13-54z" fill="none" stroke="#111" stroke-width="1.6" opacity=".55"/>';
+        return s;
+      }
+
+      /* 3. PRODUCTS -------------------------------------------------------- */
+      var PRODUCTS = [
+        { id: 'gold-necklace', cat: 'gold', art: 'necklace', name: 'Gold Necklaces', desc: 'Graceful gold necklaces for festive and everyday wear.' },
+        { id: 'gold-earrings', cat: 'gold', art: 'earrings', name: 'Gold Earrings', desc: 'Drop, stud and statement earrings in gold.' },
+        { id: 'gold-rings', cat: 'gold', art: 'ring', name: 'Gold Rings', desc: 'Gold rings for gifting, engagements and daily wear.' },
+        { id: 'gold-bangles', cat: 'gold', art: 'bangle', name: 'Gold Bangles', desc: 'Classic gold bangles with traditional detailing.' },
+        { id: 'gold-traditional', cat: 'gold', art: 'traditional', name: 'Traditional Gold Jewellery', desc: 'Jhumka-style and heritage ornaments in traditional gold patterns.' },
+        { id: 'gold-bridal', cat: 'gold', art: 'bridal', name: 'Bridal Gold Jewellery', desc: 'Jewellery for the bride, made for weddings and ceremonies.' },
+        { id: 'silver-anklets', cat: 'silver', art: 'anklet', name: 'Silver Anklets', desc: 'Silver payal and anklets with a soft, melodic charm.' },
+        { id: 'silver-rings', cat: 'silver', art: 'ring', name: 'Silver Rings', desc: 'Simple and stylish silver rings for every day.' },
+        { id: 'silver-chains', cat: 'silver', art: 'chain', name: 'Silver Chains', desc: 'Silver chains in different styles and lengths.' },
+        { id: 'silver-bracelets', cat: 'silver', art: 'bracelet', name: 'Silver Bracelets', desc: 'Silver bracelets that suit both festive and casual looks.' },
+        { id: 'silver-traditional', cat: 'silver', art: 'traditional', name: 'Traditional Silver Jewellery', desc: 'Traditional silver ornaments inspired by classic Indian designs.' }
+      ];
+      var FEATURED_IDS = ['gold-necklace', 'silver-anklets', 'gold-bangles', 'silver-chains', 'gold-bridal', 'gold-earrings'];
+
+      function enquiryText(p) {
+        return 'Hello SWATI JEWELLERS, I am interested in "' + p.name + '" (' + (p.cat === 'gold' ? 'Gold' : 'Silver') + ' jewellery). Please share more details.';
+      }
+
+      function mediaHTML(p) {
+        var html = art(p.art, p.cat, false);
+        if (PHOTOS[p.id]) html += '<img src="' + PHOTOS[p.id] + '" alt="' + p.name + ' from SWATI JEWELLERS" loading="lazy" onerror="this.remove()">';
+        return html;
+      }
+
+      function cardHTML(p, idx) {
+        return '<article class="card reveal" data-cat="' + p.cat + '">' +
+          '<div class="card-media ' + p.cat + '" data-open="' + idx + '" role="button" tabindex="0" aria-label="View ' + p.name + ' larger">' +
+          mediaHTML(p) +
+          '<span class="badge">' + (p.cat === 'gold' ? 'Gold' : 'Silver') + '</span>' +
+          '<span class="zoom"><svg><use href="#i-zoom"/></svg></span></div>' +
+          '<div class="card-body"><h3>' + p.name + '</h3><p>' + p.desc + '</p>' +
+          '<a class="btn btn-wa btn-sm" href="' + waLink(enquiryText(p)) + '" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Enquire on WhatsApp</a></div></article>';
+      }
+
+      /* Build static art blocks, product grids */
+      function buildArt() {
+        document.querySelectorAll('[data-art]').forEach(function (el) {
+          var metal = el.getAttribute('data-metal') || 'gold';
+          el.innerHTML = art(el.getAttribute('data-art'), metal, true);
+        });
+        document.getElementById('heroRosette').innerHTML = heroRosette();
+
+        document.getElementById('productGrid').innerHTML = PRODUCTS.map(cardHTML).join('');
+        document.getElementById('featuredGrid').innerHTML = FEATURED_IDS.map(function (id) {
+          var idx = PRODUCTS.findIndex(function (p) { return p.id === id; });
+          return cardHTML(PRODUCTS[idx], idx);
+        }).join('');
+      }
+
+      /* 4. ROUTER + SEO ---------------------------------------------------- */
+      var ROUTES = {
+        home: {
+          title: 'SWATI JEWELLERS | Gold & Silver Jewellery, Tirvediganj, Barabanki',
+          desc: 'SWATI JEWELLERS in Tirvediganj, Barabanki, Uttar Pradesh – Tradition, Trust and Elegance. Explore gold and silver jewellery and enquire on WhatsApp.'
+        },
+        about: {
+          title: 'About Us | SWATI JEWELLERS – Gold & Silver Jewellers in Barabanki',
+          desc: 'Learn about SWATI JEWELLERS, our brand story, vision, mission and commitment to customers. A Touch of Tradition, A Symbol of Elegance.'
+        },
+        collection: {
+          title: 'Our Collection | Gold & Silver Jewellery – SWATI JEWELLERS',
+          desc: 'Browse gold necklaces, earrings, rings, bangles, bridal jewellery, and silver anklets, rings, chains and bracelets at SWATI JEWELLERS.'
+        },
+        contact: {
+          title: 'Contact Us | SWATI JEWELLERS – Tirvediganj, Barabanki',
+          desc: 'Contact SWATI JEWELLERS at +91 90055 33628. WhatsApp, Instagram, address and map for our shop in Tirvediganj, Barabanki, Uttar Pradesh.'
+        }
+      };
+      var currentRoute = null;
+      var pendingFilter = null;
+
+      function setMeta(route) {
+        var r = ROUTES[route];
+        document.title = r.title;
+        var d = document.querySelector('meta[name="description"]'); if (d) d.setAttribute('content', r.desc);
+        var ot = document.querySelector('meta[property="og:title"]'); if (ot) ot.setAttribute('content', r.title);
+        var od = document.querySelector('meta[property="og:description"]'); if (od) od.setAttribute('content', r.desc);
+      }
+
+      function routeFromHash() {
+        var h = (location.hash || '').replace(/^#\/?/, '');
+        return ROUTES[h] ? h : 'home';
+      }
+
+      function showRoute() {
+        var route = routeFromHash();
+        document.querySelectorAll('.page').forEach(function (p) { p.classList.remove('active'); });
+        document.getElementById('page-' + route).classList.add('active');
+        document.querySelectorAll('.nav-links a').forEach(function (a) {
+          var on = a.getAttribute('data-route') === route;
+          a.classList.toggle('active', on);
+          if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+        });
+        setMeta(route);
+        closeMenu();
+        if (route !== currentRoute) window.scrollTo({ top: 0, behavior: 'auto' });
+        currentRoute = route;
+        if (route === 'collection') { applyFilter(pendingFilter || 'all'); pendingFilter = null; }
+        observeReveals();
+      }
+
+      /* 5. NAV ------------------------------------------------------------- */
+      var menuBtn = document.getElementById('menuBtn');
+      var navLinks = document.getElementById('navLinks');
+      function closeMenu() { navLinks.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.setAttribute('aria-label', 'Open menu'); }
+      menuBtn.addEventListener('click', function () {
+        var open = navLinks.classList.toggle('open');
+        menuBtn.setAttribute('aria-expanded', String(open));
+        menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+
+      /* 6. GALLERY, FILTERS, LIGHTBOX ------------------------------------- */
+      function applyFilter(f) {
+        document.querySelectorAll('.filter-btn').forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-filter') === f); });
+        var shown = 0;
+        document.querySelectorAll('#productGrid .card').forEach(function (c) {
+          var match = f === 'all' || c.getAttribute('data-cat') === f;
+          c.classList.toggle('hide', !match);
+          if (match) { shown++; c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop'); c.classList.add('visible'); }
+        });
+        var label = f === 'all' ? 'all jewellery' : f + ' jewellery';
+        document.getElementById('filterCount').textContent = 'Showing ' + shown + ' ' + (shown === 1 ? 'category' : 'categories') + ' of ' + label;
+      }
+      document.querySelectorAll('.filter-btn').forEach(function (b) {
+        b.addEventListener('click', function () { applyFilter(b.getAttribute('data-filter')); });
+      });
+      document.querySelectorAll('[data-filter-go]').forEach(function (a) {
+        a.addEventListener('click', function () { pendingFilter = a.getAttribute('data-filter-go'); });
+      });
+
+      var lb = document.getElementById('lightbox'), lbIndex = 0, lastFocus = null;
+      function openLightbox(i) {
+        lbIndex = (i + PRODUCTS.length) % PRODUCTS.length;
+        var p = PRODUCTS[lbIndex];
+        document.getElementById('lbMedia').innerHTML = art(p.art, p.cat, true) +
+          (PHOTOS[p.id] ? '<img src="' + PHOTOS[p.id] + '" alt="' + p.name + ' from SWATI JEWELLERS" onerror="this.remove()">' : '');
+        document.getElementById('lbTitle').textContent = p.name;
+        document.getElementById('lbDesc').textContent = p.desc;
+        document.getElementById('lbWa').setAttribute('href', waLink(enquiryText(p)));
+        if (!lb.classList.contains('open')) { lastFocus = document.activeElement; lb.classList.add('open'); document.body.style.overflow = 'hidden'; document.getElementById('lbClose').focus(); }
+      }
+      function closeLightbox() { lb.classList.remove('open'); document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
+      document.addEventListener('click', function (e) {
+        var m = e.target.closest('[data-open]'); if (m) openLightbox(parseInt(m.getAttribute('data-open'), 10));
+      });
+      document.addEventListener('keydown', function (e) {
+        var m = e.target.closest && e.target.closest('[data-open]');
+        if (m && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openLightbox(parseInt(m.getAttribute('data-open'), 10)); }
+        if (!lb.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') openLightbox(lbIndex + 1);
+        if (e.key === 'ArrowLeft') openLightbox(lbIndex - 1);
+      });
+      document.getElementById('lbClose').addEventListener('click', closeLightbox);
+      document.getElementById('lbPrev').addEventListener('click', function () { openLightbox(lbIndex - 1); });
+      document.getElementById('lbNext').addEventListener('click', function () { openLightbox(lbIndex + 1); });
+      lb.addEventListener('click', function (e) { if (e.target === lb) closeLightbox(); });
+
+      /* 7. WHATSAPP -------------------------------------------------------- */
+      function wireWhatsApp() {
+        document.querySelectorAll('[data-wa]').forEach(function (a) {
+          a.setAttribute('href', waLink(a.getAttribute('data-wa')));
+        });
+      }
+
+      /* 8. CONTACT FORM ---------------------------------------------------- */
+      var form = document.getElementById('enquiryForm');
+      function setInvalid(name, bad) {
+        form.querySelector('[data-field="' + name + '"]').classList.toggle('invalid', bad);
+        return bad;
+      }
+      function validate() {
+        var name = form.name.value.trim();
+        var mobile = form.mobile.value.replace(/[\s\-]/g, '').replace(/^(\+91|91|0)(?=\d{10}$)/, '');
+        var bad = false;
+        bad = setInvalid('name', !/^[A-Za-z\u0900-\u097F][A-Za-z\u0900-\u097F .'-]{1,59}$/.test(name)) || bad;
+        bad = setInvalid('mobile', !/^[6-9]\d{9}$/.test(mobile)) || bad;
+        bad = setInvalid('interest', !form.interest.value) || bad;
+        bad = setInvalid('message', form.message.value.trim().length < 5) || bad;
+        return { ok: !bad, name: name, mobile: mobile };
+      }
+      ['name', 'mobile', 'interest', 'message'].forEach(function (n) {
+        form[n].addEventListener('input', function () { form.querySelector('[data-field="' + n + '"]').classList.remove('invalid'); });
+      });
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var ok = document.getElementById('formOk'); ok.classList.remove('show');
+        var v = validate();
+        if (!v.ok) { var first = form.querySelector('.invalid input, .invalid select, .invalid textarea'); if (first) first.focus(); return; }
+        var msg = 'Hello SWATI JEWELLERS,\n\n' +
+          'Name: ' + v.name + '\n' +
+          'Mobile: +91 ' + v.mobile + '\n' +
+          'Interested in: ' + form.interest.value + ' jewellery\n' +
+          'Message: ' + form.message.value.trim();
+        ok.classList.add('show');
+        window.open(waLink(msg), '_blank', 'noopener');
+      });
+
+      /* 9. EFFECTS --------------------------------------------------------- */
+      var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('visible'); io.unobserve(en.target); } });
+      }, { threshold: .12, rootMargin: '0px 0px -40px 0px' }) : null;
+      function observeReveals() {
+        document.querySelectorAll('.page.active .reveal:not(.visible)').forEach(function (el) {
+          if (io) io.observe(el); else el.classList.add('visible');
+        });
+      }
+
+      var header = document.getElementById('siteHeader'), toTop = document.getElementById('toTop');
+      function onScroll() {
+        var y = window.pageYOffset || document.documentElement.scrollTop;
+        header.classList.toggle('scrolled', y > 10);
+        toTop.classList.toggle('show', y > 500);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      toTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+      // Skip link (works with hash routing)
+      document.querySelector('[data-skip]').addEventListener('click', function (e) {
+        e.preventDefault(); document.getElementById('main').setAttribute('tabindex', '-1'); document.getElementById('main').focus();
+      });
+
+      // Same-page nav links: scroll to top smoothly instead of doing nothing
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest('a[href^="#/"]');
+        if (a && a.getAttribute('href') === '#/' + currentRoute) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+      });
+
+      /* INIT */
+      document.getElementById('year').textContent = new Date().getFullYear();
+      buildArt();
+      wireWhatsApp();
+      window.addEventListener('hashchange', showRoute);
+      showRoute();
+      onScroll();
+    })();
+  </script>
+</body>
+
+</html>
